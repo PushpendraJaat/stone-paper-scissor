@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: #74DAE2;
+    height: 3rem;
+    width: 100%;
+}
+
+#bold-name{
+    color: #601155;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+}
+.choices{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choices img{
+    width: 200px;
+    height: 200px;
+    transform: rotate(-90deg);
+    
+}
+.choices img:hover{
+    border-radius: 50%;
+    transform: scale(1);
+  
+}
+
+.winning-text{
+    width: 100%;
+    margin-top: 3rem;
+}
+.winners{
+    background-color: black;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    margin-top: 35px;
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#user{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#comp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
